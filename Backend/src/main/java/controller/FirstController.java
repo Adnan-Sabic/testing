@@ -11,4 +11,9 @@ public class FirstController {
     public String getTest() {
         return "Ado";
     }
+
+    @GetMapping
+    public String getTest2() {
+        return "Sabic";
+    }
 }
